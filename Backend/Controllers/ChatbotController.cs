@@ -10,7 +10,7 @@ namespace Backend.Controllers
     [ApiController]
     public class ChatbotController : ControllerBase
     {
-        private readonly string API_KEY = "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";
+        private readonly string API_KEY = "YOUR_API_KEY";
         private OpenAIAPI api;
         private OpenAI_API.Chat.Conversation conversation;
         public ChatbotController()
